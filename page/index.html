@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>My first page</title>
+</head>
+
+<!-- header, nav, main, footer are block tags! -->
+<body>
+
+	<!-- a group of introductory or navigational aids: title, navigation links, etc -->
+	<header>
+		<h1>Header part</h1>
+	</header>
+
+	<!-- a section of the page that links to other pages or to parts within the page, often found int the header tag 
+		not links of socialmedia -->
+	<nav>
+		<p> Navigation part</p>
+	</nav>
+
+	<!-- audio: #t=30 (desde los 30 segundos, todo junto)-->
+	<main>
+		<p> Main part</p>
+		<video src="chiara.mp4" width="300" controls="" > Not supported</video>
+		<br>
+		<audio src= "audio.mpeg#t=30" controls> audio de prueba</audio>
+	</main>
+
+	<!-- more semantics than <img>. Can include caption and multiple multimedia resources -->
+	<figure>
+		<p>Figure part</p>
+		<img src="chiara.png" width="300" alt="a black poodle playing in the snow">
+		<figcaption>Pie de foto</figcaption>
+	</figure>
+
+	<!-- a section that contains info such as copyright data, socialmedia links, related documents
+		typically at the bottom of the page, but not required -->
+	<!-- target ="", what will happen when the user clicks in the link -->
+	<footer>
+		<p>Footer part</p>
+		<a href="https://www.instagram.com/trinifaccini/" aria-label="My instagram page" target="blank" > Intagram</a>
+	</footer>
+
+</body>
+</html>
